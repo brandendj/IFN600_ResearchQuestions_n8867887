@@ -1,0 +1,155 @@
+
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% PAGE DIMENSIONS
+\usepackage[margin=2cm,top=4cm,headheight=45pt,headsep=0.1in,heightrounded]{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+
+%\usepackage{indentfirst}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+%\usepackage{booktabs} % for much better looking tables
+%\usepackage{array} % for better arrays (eg matrices) in maths
+%\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% Packages I Installed
+%\usepackage{amsmath,amsfonts,amssymb}
+
+%%% HEADERS & FOOTERS
+
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0.4pt} % customise the layout...
+\lhead{\authorhere}\chead{}\rhead{\unithere}
+\lfoot{}\cfoot{}\rfoot{\thepage}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+
+
+%% Package set up for hyper links and superscript citations
+%\usepackage{apacite}
+\usepackage{natbib}
+%\usepackage[super]{natbib}
+\usepackage{url, hyperref}
+\hypersetup{colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links
+    citecolor=black,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+%%% Set some new commands
+
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+
+%% Put title and author here
+\title{Literature Review}
+\author{Daniel Brandenburg}
+\newcommand{\titlehere}{Altering Public Perception Without Consent}
+\newcommand{\unithere}{IFN600}
+\newcommand{\authorhere}{Daniel Brandenburg \\ n8867887}
+\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+
+
+% Change this before submitting
+%\linespread{1.6}
+
+
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{qut}\par\vspace{1cm}
+	{\scshape\LARGE Queensland University of Technology \par}
+	\vspace{1cm}
+	{\scshape\Large \unithere\par}
+	\vspace{1.5cm}
+	{\huge\bfseries \titlehere \par}
+	\vspace{2cm}
+	{\Large\itshape \authorhere \par}
+
+	%\vfill
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+%\tableofcontents
+\newpage
+\section{Problem Statement}
+
+\textbf{Rewrite this}\par
+A mass digital nudge is a proposed reinforcement strategy to indirectly suggest and influence the behaviour of individuals on a mass scale.  The study and application of nudges has exploded over the last decade, showing the diversity at which they can be used \citep{WhoNudge}. Nudges have been used to help people save money, increase organ donor rates and increase recycling, with literature to reinforce the effectiveness of nudging \citep{PrivateSector}. However, nudges are being used without regulation, potentially impacting millions of lives. Could a large enough company or governing body manipulate an economy or election freely with the use of mass digital nudges. While nudge theory has been in practice for over a decade now, an unanswered question is whether nudges can be used to disrupt large scale infrastructure such as an economy or election. With the controversy surrounding the 2016 presidential election, the significance of this research is paramount, companies or individuals should not be able to manipulate consumers without consent. Large scale experiments conducted on Facebook shows mass digital nudges are feasible for large organising bodies \citep{BehaveNudge}.\par
+
+This paper will refer to a company or governing body delivering a nudge as a administrator, and anyone receiving a nudge as a consumer. Many parallels can be drawn between advertisements and nudges, however, ads are usually more noticeable and are targeted towards a consumer purchasing a product, while a nudge is usually focused on altering a behaviour. To refer to both of an advert or nudge, the term content will be used.
+
+\section{Research Questions}
+\subsection{Question One}
+Does the the use of inline content on social media reduce engagement and effectiveness levels compared to more traditional social media content methods.
+Adverts have been present in social media since the beginning. However, in a recent movement called stealth marketing, advertisements have tried to be displayed naturally, as to not appear any different from other content \citep{Stealth}. An inline ad is indistinguishable from information around it. If this technique can be applied to digital content and still retain its effectiveness, then administrator can effectively publish content on a social media platform without the knowledge of the consumer. This information is crucial to know if a company can display messages to consumers without knowledge or consent. \par% Engagment per view
+
+To answer this question an experimental approach on a social media platform can be used. A method would use the personalised ads Google can already produce and display them to consumers in different formats. Using the same product, but sold under different fake brands, the effectiveness of the ad format can be calculated and have an empirical measure attached to it. These ads can be displayed in the traditional ad format, as an inline ad or hidden as a post or comment by a user. These are some of main stealth ad techniques described by \cite{Stealth}, however, they do not develop or test these methods. With statistics on how much of each brand was looked at, purchased or ignored, there would be a definitive answer to the effectiveness of inline content.  \par
+
+The effectiveness of inline content could change how they are displayed to consumers. A large part of the research problem is displaying content to the user without there knowledge, while still maintaining the impact. If that these inline ads or nudges are fruitful, regulations should be put in place to reduce the stealth effect and make sure consumers are aware when a administrators are displaying content to them. By knowing the best possible ad size and location, companies will have better and more lucrative advertising campaigns. The same logic can be applied to an election. Users of social media should have to opt in to receive potentially behaviour altering nudges. If a large organisation is capably of freely displaying behaviour altering content to consumers, this could have potentially devastating effects on large scale infrastructure, potentially altering election votes or showing bias towards an otherwise unbiased situation. 
+
+
+\subsection{Question Two}
+Can predictive analytics and machine learning be used at such a large scale and in real time. With the constant evolution of technology, both software and hardware, the problem of analysing millions or billions of data samples in real time will quickly because trivial, however, the techniques developed to do so can be used in other areas or to analyse the large scale problem. 
+% Distributed machine learning
+%Lightweight machine learning and edge computing
+%Social machine learning
+
+\subsection{Question Three}
+Which socio-economic groups are most susceptible to personalized digital nudges?
+
+
+\section{Question Comparison}
+
+
+\newpage
+
+%\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{bib} 
+
+\newpage
+\section{Reflective Statement}
+% Thought on weekly tasks
+
+%%% End of the doc
+\end{document}
